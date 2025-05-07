@@ -39,3 +39,9 @@ No seu arquivo `pom.xml` adicione os seguintes conteudos: \
   </dependency>
 </dependencies>
 ```
+
+## Como usar
+```java
+ViaCepClient viaCepClient = new ViaCepClient();
+ViaCepResponse response = viaCepClient.get("01001-000")
+```
